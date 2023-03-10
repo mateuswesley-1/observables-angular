@@ -27,7 +27,7 @@ export class AppComponent implements OnInit{
       }
 
       else {
-        reject('nome de merda')
+        reject('nome feio')
       }
 
     })
@@ -39,10 +39,13 @@ export class AppComponent implements OnInit{
     //  a promisse representa uma string, entao estamos fazendo
     // codigo do que faremos com essa string, quando tivermos esse valor
     // nesse caso é so imprimir ela na tela
+
     this.myPromise('ok')
       .then((value) => {console.log(value)})
       .catch(erro => {console.log(erro)})
 
+      console.log('mateus')
+      console.log('mateus 2')
 
   }
 }
